@@ -22,7 +22,64 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Brendan Rogers</h1>
+  <header id="masthead">
+     <div class="container">
+
+       <a href="index.html" id="logo">Brendan Rogers</a>
+
+    <nav>
+          <a href="index.html">About</a> 
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div> <!-- container close -->
+   </header>
+
+ <div class="wrapper">  
+  <div id="main-container" class="container">
+     <section class="main-section">
+       <h1>Contact</h1>
+       <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+    </section> 
+   
+   
+
+  <section class="sidebar">
+     <div id="connect">
+       <h2>Connect With Me</h2>
+
+      <a href="http://www.github.com/BooRad45"><img class="social"  src="assets/images/SocialIconImages/GitHubIcon.png" alt="GitHub icon"></a>
+      <a href="https://www.linkedin.com/in/brendan-rogers-65721a132"><img class="social" src="assets/images/SocialIconImages/LinkedInIcon.png" alt="LinkedIn"></a>
+      <a href="http://stackoverflow.com/users/7355881/boorad45?tab=profile"><img class="social" src="assets/images/SocialIconImages/StackOverIcon.png" alt="StackOverflow icon"></a>
+    
+         </div> <!-- connect close -->
+       </section>
+      
+     <div class="push"></div>
+    </div> 
+  </div><!--wrapper close? -->    
+
+  <footer>
+    <div class="container">
+    &copy; 2017 Brendan Rogers
+    </div>
+  </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
