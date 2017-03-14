@@ -1,0 +1,15 @@
+
+#auth-img {
+	width: 20%;
+	}
+	/* Gradient color1 - color2 - color1 */
+
+/* Gradient transparent - color - transparent */
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
