@@ -1,1 +1,1 @@
-<?php include_once("Desktop/CodingBootcamp/WeekTwo/Bootstrap-Portfolio/index.html"); ?>
+<?php include_once("index.html"); ?>
